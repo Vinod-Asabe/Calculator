@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-12T18:37:43 IST" name="Default suite" finished-at="2024-04-12T18:37:43 IST" duration-ms="63">
+    <groups>
+    </groups>
+    <test started-at="2024-04-12T18:37:43 IST" name="Default test" finished-at="2024-04-12T18:37:43 IST" duration-ms="63">
+      <class name="calctest.CalculatorTest">
+        <test-method signature="testAdd()[pri:0, instance:calctest.CalculatorTest@1aa7ecca]" started-at="2024-04-12T18:37:43 IST" name="testAdd" finished-at="2024-04-12T18:37:43 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd -->
+        <test-method signature="testDivide()[pri:0, instance:calctest.CalculatorTest@1aa7ecca]" started-at="2024-04-12T18:37:43 IST" name="testDivide" finished-at="2024-04-12T18:37:43 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivide -->
+        <test-method signature="testMultiply()[pri:0, instance:calctest.CalculatorTest@1aa7ecca]" started-at="2024-04-12T18:37:43 IST" name="testMultiply" finished-at="2024-04-12T18:37:43 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiply -->
+        <test-method signature="testSubtract()[pri:0, instance:calctest.CalculatorTest@1aa7ecca]" started-at="2024-04-12T18:37:43 IST" name="testSubtract" finished-at="2024-04-12T18:37:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtract -->
+      </class> <!-- calctest.CalculatorTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
