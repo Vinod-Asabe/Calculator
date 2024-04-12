@@ -14,14 +14,14 @@ pipeline {
 
         stage('Build') {
             steps {
-                mvn clean
+                bat 'mvn clean'
                 // sh 'javac -cp junit-4.13.2.jar:. *.java'
             }
         }
 
         stage('Test') {
             steps {
-                mvn test
+                bat 'mvn test'
                 // sh 'java -cp junit-4.13.2.jar:hamcrest-core-1.3.jar:. org.junit.runner.JUnitCore CalculatorTest'
             }
         }
